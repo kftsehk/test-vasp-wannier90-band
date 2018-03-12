@@ -2,6 +2,13 @@
 
 Compare band structure plotting methods for vasp
 
+# Environment
+
+Assumed that
+- vasp 5.4.4 (std version) is available by calling `vasp-544-s`
+- vasp 5.4.4 is compiled with `-DVASP2WANNIER90` and `libwannier.a`
+- PBE potcar is available at `$VASP_PBE_DIR`
+
 # References
 
 Slides from Jonathan Skelton
