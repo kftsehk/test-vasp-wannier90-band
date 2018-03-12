@@ -1,0 +1,17 @@
+use_bloch_phases = T
+Begin Projections
+  Random
+End Projections
+dis_num_iter=100
+guiding_centres=true
+
+bands_plot = true
+begin kpoint_path
+L 0.50000  0.50000 0.5000 G 0.00000  0.00000 0.0000
+G 0.00000  0.00000 0.0000 X 0.50000  0.00000 0.5000
+X 0.50000  0.00000 0.5000 W 0.50000  0.25000 0.7500
+W 0.50000  0.25000 0.7500 G 0.00000  0.00000 0.0000
+end kpoint_path
+bands_num_points 50
+bands_plot_format gnuplot xmgrace
+
