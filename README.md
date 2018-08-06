@@ -2,6 +2,8 @@
 
 Compare band structure plotting methods for vasp
 
+Different branches are different methods, they won't merge
+
 # Environment
 
 Assumed that
